@@ -1,0 +1,37 @@
+/* proyectCard.css */
+.container {
+    display: flex;
+  }
+  
+  .image-column {
+    flex: 1;
+    margin-right: 20px; /* Espacio entre la imagen y el título */
+  }
+  
+  .projectInfo {
+    flex: 2;
+    color: aliceblue;
+  }
+  
+  .project-card img {
+    max-width: 100%; /* Ajustar la imagen al tamaño de su contenedor */
+  }
+
+  .link{
+    color: inherit;
+    text-decoration: none;
+
+  }
+   
+  .projectCard {
+    flex: 1 0 calc(50% - 20px); /* 50% del ancho menos el espacio entre las tarjetas */
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .projectCard:last-child {
+    margin-right: 0; /* No aplicar margen derecho a la última tarjeta en una fila */
+  }
+  
+  
+  
